@@ -275,7 +275,7 @@ const App = () => {
                                 );
                             })
                         ) : (
-                            <div className="text-gray-400">
+                            <div className="text-gray-400 mt-5">
                                 <p className="text-lg">📭 No Notes Yet</p>
                                 <p className="text-sm">
                                     Start by creating your first note.
