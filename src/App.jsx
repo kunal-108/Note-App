@@ -148,7 +148,7 @@ const App = () => {
     return (
         <div className="min-h-screen md:flex bg-linear-to-br from-slate-100 to-slate-200">
             {/* ------------------------ Form Code ------------------------ */}
-            <div className="md:w-[60%] lg:w-1/2 sm:px-8 sm:py-5 px-4 py-3 md:border-r-2 border-gray-300">
+            <div className="md:w-[60%] lg:w-1/2 sm:px-8 sm:py-5 px-6 py-4 md:border-r-2 border-gray-300">
                 <h1 className="lg:text-3xl text-2xl font-bold mb-5 text-gray-800">
                     Add Notes📝
                 </h1>
@@ -204,7 +204,7 @@ const App = () => {
             <div className="border-b-2 border-gray-300 md:hidden block sm:my-7.5 my-5"></div>
 
             {/* ------------------------ Note Code ------------------------ */}
-            <div className="md:w-[40%] lg:w-1/2 sm:px-8 sm:py-5 px-4 py-3 md:h-full md:overflow-y-scroll scroll-hide">
+            <div className="md:w-[40%] lg:w-1/2 sm:px-8 sm:py-5 px-6 py-4 md:h-full md:overflow-y-scroll scroll-hide">
                 <div className="flex justify-between items-baseline">
                     <h1 className="lg:text-3xl text-2xl font-bold text-gray-800">
                         Recent Notes🗒️
