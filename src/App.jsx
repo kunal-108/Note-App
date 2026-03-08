@@ -213,7 +213,9 @@ const App = () => {
                         <span
                             className="text-red-600 underline lg:text-sm text-xs font-semibold cursor-pointer"
                             onClick={() => {
-                                setNote([]);
+                                if (confirm("Do you want to delete all notes?")) {
+                                    setNote([]);
+                                }
                             }}>
                             Clear all
                         </span>
